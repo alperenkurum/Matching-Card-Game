@@ -460,7 +460,7 @@ int cmp_guess(int mode, int memo){
 							check2 = true;
 							for(j = i; j < memo; j++){
 								memory[j] = memory[j+1];
-								rowmemory[j] = rowmemory[j+1];						//hafýza kaydýrma iþlemleri
+								rowmemory[j] = rowmemory[j+1];						//hafÃ½za kaydÃ½rma iÃ¾lemleri
 								columnmemory[j] = columnmemory[j+1];
 								if(j == memo-1){		
 									memory[j] = -1;
@@ -487,11 +487,11 @@ int cmp_guess(int mode, int memo){
 								columnmemory[i] = column;
 								check3 = true;
 							}else if(i == memo-1 && check3 == false){
-								for(j = 0; j < memo; j++){		//hafýzada tutma sayýsý buradaki sýnýr
+								for(j = 0; j < memo; j++){		//hafÃ½zada tutma sayÃ½sÃ½ buradaki sÃ½nÃ½r
 									memory[j] = memory[j+1];
-									rowmemory[j] = rowmemory[j+1];				//kaydýrma iþlemleri
+									rowmemory[j] = rowmemory[j+1];				//kaydÃ½rma iÃ¾lemleri
 									columnmemory[j] = columnmemory[j+1];
-									if(j == memo-1){		//hafýzada tutma sayýsý - 1
+									if(j == memo-1){		//hafÃ½zada tutma sayÃ½sÃ½ - 1
 										memory[j] = game[row][column];
 										rowmemory[j] = row;
 										columnmemory[j] = column;
