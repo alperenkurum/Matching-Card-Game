@@ -5,7 +5,7 @@ In the project you are playing against to the computer. Computer is choosing the
 It is realy simple code but i think it is a great project for a starter.
 
 
-###How to play
+### How to play
 
 When you start the program you see 3 option for a difficulty level. Then you are selecting the cards location. If players find a matching card they gain points and a turn. Who takes the most point wins the game.
 
